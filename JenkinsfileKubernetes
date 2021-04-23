@@ -13,7 +13,7 @@ node{
     
     
     stage('Build Docker Image'){
-        sh 'docker build -t mylandmarktech/spring-boot-mongo .'
+        sh 'docker build -t myltech/spring-boot-mongo .'
     }
     
     stage('Push Docker Image'){
