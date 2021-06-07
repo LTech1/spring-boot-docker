@@ -64,7 +64,7 @@ spec:
         ports:
         - containerPort: 27017
         volumeMounts:
-        - name: mongo-persistent-storage
+        - name: mongo-persistent-storagev1
           mountPath: /data/db
       volumes:
       - name: mongo-persistent-storage
